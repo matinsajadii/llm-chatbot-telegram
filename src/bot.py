@@ -23,7 +23,7 @@ def get_gpt_response(user_query):
                 "content": f"{user_query}",
             }
         ],
-        model="gpt-3.5-turbo",
+        model="gpt-4o",
     )
 
     response = chat_completion.choices[0].message.content
